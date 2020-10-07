@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="50dp">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -136,6 +137,23 @@
                 android:textAlignment="viewStart"
                 app:layout_constraintBaseline_toBaselineOf="@+id/txtView_book_photo_url_label"
                 app:layout_constraintStart_toEndOf="@+id/txtView_book_photo_url_label" />
+
+            <ImageView
+                android:id="@+id/ImageView_book_photoUrl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/guideline4"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="149dp" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

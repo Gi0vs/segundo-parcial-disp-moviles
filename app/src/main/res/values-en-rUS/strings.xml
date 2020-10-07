@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Test movile</string>
+    <string name="txtView_book_tittle_label">Title:</string>
+    <string name="txtView_book_pages_label">Pages:</string>
+    <string name="txtView_book_editorial_label">Editorial:</string>
+    <string name="txtView_book_author_label">Author:</string>
+    <string name="txtView_book_description_label">Description:</string>
+    <string name="txtView_book_photo_url_label">Image:</string>
+    <string name="txtView_add_photoUrl_label">Image URL:</string>
+    <string name="btn_add_book_label">Add</string>
+</resources>
