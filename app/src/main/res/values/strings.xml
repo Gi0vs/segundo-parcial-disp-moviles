@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Examen moviles</string>
+    <string name="txtView_book_tittle_label">Titulo:</string>
+    <string name="txtView_book_pages_label">Paginas:</string>
+    <string name="txtView_book_editorial_label">Editorial:</string>
+    <string name="txtView_book_author_label">Autor:</string>
+    <string name="txtView_book_description_label">Descripcion:</string>
+    <string name="txtView_book_photo_url_label">Imagen:</string>
+</resources>
