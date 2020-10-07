@@ -1,5 +1,5 @@
 package e.bo.examenmoviles
-class BookRepository(private val bookDao: IBookDAO) {
+class BookRepository(private val bookDao: IBookDao) {
 
     suspend fun insert(book: Book) {
         bookDao.insert(book)
@@ -9,3 +9,4 @@ class BookRepository(private val bookDao: IBookDAO) {
         return bookDao.getList()
     }
 }
+

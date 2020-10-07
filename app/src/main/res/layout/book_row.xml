@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -93,7 +93,6 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
-                android:text="asdasd"
                 app:layout_constraintBaseline_toBaselineOf="@+id/txtView_book_title_label"
                 app:layout_constraintStart_toEndOf="@+id/txtView_book_title_label" />
 
@@ -102,7 +101,6 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
-                android:text="TextView"
                 app:layout_constraintBaseline_toBaselineOf="@+id/txtView_book_pages_label"
                 app:layout_constraintStart_toEndOf="@+id/txtView_book_pages_label" />
 
@@ -111,7 +109,6 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
-                android:text="TextView"
                 app:layout_constraintBaseline_toBaselineOf="@+id/txtView_book_editorial_label"
                 app:layout_constraintStart_toEndOf="@+id/txtView_book_editorial_label" />
 
@@ -120,7 +117,6 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
-                android:text="TextView"
                 app:layout_constraintBaseline_toBaselineOf="@+id/txtView_book_author_label"
                 app:layout_constraintStart_toEndOf="@+id/txtView_book_author_label" />
 
@@ -129,7 +125,6 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
-                android:text="TextView"
                 app:layout_constraintBaseline_toBaselineOf="@+id/txtView_book_description_label"
                 app:layout_constraintStart_toEndOf="@+id/txtView_book_description_label" />
 
@@ -138,7 +133,6 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
-                android:text="TextView"
                 android:textAlignment="viewStart"
                 app:layout_constraintBaseline_toBaselineOf="@+id/txtView_book_photo_url_label"
                 app:layout_constraintStart_toEndOf="@+id/txtView_book_photo_url_label" />
@@ -147,4 +141,4 @@
 
     </androidx.cardview.widget.CardView>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
